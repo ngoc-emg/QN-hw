@@ -1,4 +1,4 @@
-update=Thứ sáu, 06 Tháng tư Năm 2018 10:54:47 ICT
+update=Thứ hai, 09 Tháng tư Năm 2018 22:12:37 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Kicad/Kicad-Lib-master/nhantt-kicad-lib
+LibDir=../Kicad/nhantt/nhantt-kicad-lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -40,4 +40,5 @@ LibName8=opto
 LibName9=atmel
 LibName10=contrib
 LibName11=valves
-LibName12=nhantt-kicad-lib
+LibName12=/home/q-n/Kicad/nhantt/nhantt-kicad-lib/nhantt-kicad-lib
+LibName13=nhantt-kicad-lib

@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name Socket_Arduino_Mega)(type KiCad)(uri "$(KIPRJMOD)\\Socket_Arduino_Mega.pretty")(options "")(descr ""))
+  (lib (name Socket_Arduino_Mega)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Mega.pretty")(options "")(descr ""))
+  (lib (name nhantt-kicad-lib)(type KiCad)(uri /home/q-n/Kicad/Kicad-Lib-master/nhantt-kicad-lib.pretty)(options "")(descr ""))
+  (lib (name mods)(type KiCad)(uri /home/q-n/Kicad/kicad-library-master/mods)(options "")(descr ""))
+  (lib (name SOT23)(type Legacy)(uri /home/q-n/Kicad/kicad-library-master/mods/legacy/SOT23.mod)(options "")(descr ""))
 )
