@@ -1,4 +1,4 @@
-update=Thứ hai, 09 Tháng tư Năm 2018 22:12:37 ICT
+update=Thứ năm, 12 Tháng tư Năm 2018 01:04:19 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,16 +29,17 @@ version=1
 version=1
 LibDir=../Kicad/nhantt/nhantt-kicad-lib
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=74xx
-LibName6=microcontrollers
-LibName7=microchip
-LibName8=opto
-LibName9=atmel
-LibName10=contrib
-LibName11=valves
-LibName12=/home/q-n/Kicad/nhantt/nhantt-kicad-lib/nhantt-kicad-lib
-LibName13=nhantt-kicad-lib
+LibName1=QN-hw-rescue
+LibName2=power
+LibName3=device
+LibName4=transistors
+LibName5=conn
+LibName6=74xx
+LibName7=microcontrollers
+LibName8=microchip
+LibName9=opto
+LibName10=atmel
+LibName11=contrib
+LibName12=valves
+LibName13=/home/q-n/Kicad/nhantt/nhantt-kicad-lib/nhantt-kicad-lib
+LibName14=nhantt-kicad-lib

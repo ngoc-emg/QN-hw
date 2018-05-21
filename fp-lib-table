@@ -1,6 +1,10 @@
 (fp_lib_table
   (lib (name Socket_Arduino_Mega)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Mega.pretty")(options "")(descr ""))
-  (lib (name nhantt-kicad-lib)(type KiCad)(uri /home/q-n/Kicad/Kicad-Lib-master/nhantt-kicad-lib.pretty)(options "")(descr ""))
   (lib (name mods)(type KiCad)(uri /home/q-n/Kicad/kicad-library-master/mods)(options "")(descr ""))
   (lib (name SOT23)(type Legacy)(uri /home/q-n/Kicad/kicad-library-master/mods/legacy/SOT23.mod)(options "")(descr ""))
+  (lib (name Termical-block-2)(type KiCad)(uri "$(KIPRJMOD)/Termical-block-2.pretty")(options "")(descr ""))
+  (lib (name Terminal-block-20)(type KiCad)(uri "$(KIPRJMOD)/Terminal-block-20.pretty")(options "")(descr ""))
+  (lib (name nhantt-kicad-lib)(type KiCad)(uri /home/q-n/Kicad/nhantt/nhantt-kicad-lib.pretty)(options "")(descr ""))
+  (lib (name TQFP)(type KiCad)(uri /home/q-n/Kicad/TQFP.pretty-master)(options "")(descr ""))
+  (lib (name 2560)(type KiCad)(uri "$(KIPRJMOD)/2560.pretty")(options "")(descr ""))
 )
