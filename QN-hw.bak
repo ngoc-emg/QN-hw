@@ -275,9 +275,9 @@ Text GLabel 9150 6500 2    39   Input ~ 0
 TX0
 Text GLabel 9150 6400 2    39   Input ~ 0
 RX0
-Text GLabel 4450 4650 2    39   Input ~ 0
+Text GLabel 4450 4550 2    39   Input ~ 0
 TX0
-Text GLabel 4450 4750 2    39   Input ~ 0
+Text GLabel 4450 4650 2    39   Input ~ 0
 RX0
 $Comp
 L D D21
@@ -348,7 +348,7 @@ F 3 "" H 1700 2650 50  0001 C CNN
 $EndComp
 Text GLabel 2250 2650 2    39   Input ~ 0
 DTR
-Text GLabel 4450 4550 2    39   Input ~ 0
+Text GLabel 4450 4750 2    39   Input ~ 0
 DTR
 Text Label 4850 4950 0    60   ~ 0
 0V
@@ -505,6 +505,8 @@ F 3 "" H 1000 4150 50  0001 C CNN
 	1    1000 4150
 	-1   0    0    1   
 $EndComp
+Text GLabel 1800 4150 2    39   Input ~ 0
+A8
 Text Label 1400 3500 0    60   ~ 0
 +5V
 Text Label 1400 4500 0    60   ~ 0
@@ -531,6 +533,8 @@ F 3 "" H 2750 6150 50  0001 C CNN
 	1    2750 6150
 	-1   0    0    1   
 $EndComp
+Text GLabel 3550 6150 2    39   Input ~ 0
+A9
 Text Label 3150 5500 0    60   ~ 0
 +5V
 Text Label 3150 6500 0    60   ~ 0
@@ -557,6 +561,8 @@ F 3 "" H 1150 6200 50  0001 C CNN
 	1    1150 6200
 	-1   0    0    1   
 $EndComp
+Text GLabel 1950 6200 2    39   Input ~ 0
+A10
 Text Label 1550 5550 0    60   ~ 0
 +5V
 Text Label 1550 6550 0    60   ~ 0
@@ -691,9 +697,9 @@ F 3 "" H 4500 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5400 14400 0    60   ~ 0
-24V-N
+24V
 Text Label 5400 14650 0    60   ~ 0
-0V-N
+0V
 $Comp
 L R R4
 U 1 1 5B309D5C
@@ -728,9 +734,9 @@ F 3 "" H 5500 15200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5100 15050 0    60   ~ 0
-24V-N
+24V
 Text Label 5050 15350 0    60   ~ 0
-0V-N
+0V
 Text Label 6450 14950 0    60   ~ 0
 +5V
 Text Label 6400 15300 0    60   ~ 0
@@ -986,6 +992,16 @@ Text Label 12250 2000 0    60   ~ 0
 GND-IN
 Text Label 12300 1750 0    60   ~ 0
 24V-IN
+NoConn ~ 3250 3800
+NoConn ~ 3250 3900
+NoConn ~ 3250 4000
+NoConn ~ 3250 4100
+NoConn ~ 2900 4850
+NoConn ~ 3000 4850
+NoConn ~ 3100 4850
+NoConn ~ 3200 4850
+NoConn ~ 3300 4850
+NoConn ~ 3400 4850
 $Comp
 L Conn_01x02 J18
 U 1 1 5B315800
@@ -3526,137 +3542,14 @@ Wire Wire Line
 Wire Wire Line
 	13000 2200 13000 2300
 Connection ~ 13000 2300
-$Comp
-L CONN_01X02 P6
-U 1 1 5B33718E
-P 8450 15250
-F 0 "P6" H 8450 15400 50  0000 C CNN
-F 1 "0V-INPUT" V 8550 15250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 8450 15250 50  0001 C CNN
-F 3 "" H 8450 15250 50  0000 C CNN
-	1    8450 15250
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X02 P5
-U 1 1 5B338747
-P 8450 14350
-F 0 "P5" H 8450 14500 50  0000 C CNN
-F 1 "24V-OUTPUT" V 8550 14350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 8450 14350 50  0001 C CNN
-F 3 "" H 8450 14350 50  0000 C CNN
-	1    8450 14350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_01X02 P4
-U 1 1 5B3389AF
-P 7700 15250
-F 0 "P4" H 7700 15400 50  0000 C CNN
-F 1 "0V" V 7800 15250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 7700 15250 50  0001 C CNN
-F 3 "" H 7700 15250 50  0000 C CNN
-	1    7700 15250
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X02 P3
-U 1 1 5B338C1E
-P 7550 14350
-F 0 "P3" H 7550 14500 50  0000 C CNN
-F 1 "24V-INPUT" V 7650 14350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 7550 14350 50  0001 C CNN
-F 3 "" H 7550 14350 50  0000 C CNN
-	1    7550 14350
-	0    -1   -1   0   
-$EndComp
-Text Label 7500 14550 2    60   ~ 0
-24V-N
-Text Label 7600 14550 0    60   ~ 0
-24V-IN
-Text Label 8400 14550 2    60   ~ 0
-24V-N
-Text Label 8500 14550 0    60   ~ 0
+Wire Wire Line
+	8900 14750 10400 14750
+Wire Wire Line
+	10400 14750 10400 14800
+Text Label 8900 14750 2    60   ~ 0
+24V
+Text Label 10400 14800 0    60   ~ 0
 24V-OUT
-Text Label 7650 15050 2    60   ~ 0
-0V-N
-Text Label 8400 15050 2    60   ~ 0
-0V-N
-Text Label 9200 15050 2    60   ~ 0
-0V-N
-$Comp
-L CONN_01X02 P7
-U 1 1 5B361E38
-P 9250 15250
-F 0 "P7" H 9250 15400 50  0000 C CNN
-F 1 "0V-OUTPUT" V 9350 15250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 9250 15250 50  0001 C CNN
-F 3 "" H 9250 15250 50  0000 C CNN
-	1    9250 15250
-	0    1    1    0   
-$EndComp
-Text Label 7750 15050 0    60   ~ 0
-0V
-Text Label 8500 15050 0    60   ~ 0
-GND-IN
-Text Label 9300 15050 0    60   ~ 0
-GND-OUT
-Text GLabel 12600 6150 0    39   Input ~ 0
-41
-Text GLabel 12650 6950 0    39   Input ~ 0
-40
-Text GLabel 12650 7600 0    39   Input ~ 0
-37
-Text GLabel 12650 8250 0    39   Input ~ 0
-36
-Text GLabel 12650 8900 0    39   Input ~ 0
-35
-Text GLabel 12650 9600 0    39   Input ~ 0
-34
-Text GLabel 12650 10250 0    39   Input ~ 0
-33
-Text GLabel 12650 10950 0    39   Input ~ 0
-32
-Text GLabel 12650 11700 0    39   Input ~ 0
-31
-Text GLabel 12650 12400 0    39   Input ~ 0
-30
-Text GLabel 12650 13050 0    39   Input ~ 0
-22
-Text GLabel 12650 13650 0    39   Input ~ 0
-23
-Text GLabel 3250 4100 2    39   Input ~ 0
-SCL
-Text GLabel 3250 4000 2    39   Input ~ 0
-SDA
-Text Label 3250 3900 0    60   ~ 0
-+5V
-Text Label 3250 3800 0    60   ~ 0
-0V
-Text GLabel 18050 2000 2    39   Input ~ 0
-A0
-Text GLabel 18050 2500 2    39   Input ~ 0
-A1
-Text GLabel 18050 3050 2    39   Input ~ 0
-A2
-Text GLabel 18050 3550 2    39   Input ~ 0
-A3
-Text GLabel 1800 4150 2    39   Input ~ 0
-A4
-Text GLabel 1950 6200 2    39   Input ~ 0
-A5
-Text GLabel 3550 6150 2    39   Input ~ 0
-A6
-Text GLabel 3400 4850 3    39   Input ~ 0
-A7
-Text GLabel 3300 4850 3    39   Input ~ 0
-A8
-Text GLabel 3200 4850 3    39   Input ~ 0
-A9
-Text GLabel 3100 4850 3    39   Input ~ 0
-A10
-Text GLabel 3000 4850 3    39   Input ~ 0
-A11
-Text GLabel 2900 4850 3    39   Input ~ 0
-A12
+Text Label 9800 14750 1    60   ~ 0
+24V-IN
 $EndSCHEMATC

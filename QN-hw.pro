@@ -1,4 +1,4 @@
-update=Thứ năm, 12 Tháng tư Năm 2018 01:04:19 ICT
+update=6/25/2018 2:51:27 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Kicad/nhantt/nhantt-kicad-lib
+LibDir=../Kicad/nhantt/nhantt-kicad-lib;lib/pcb.pretty
 [eeschema/libraries]
 LibName1=QN-hw-rescue
 LibName2=power
@@ -41,5 +41,5 @@ LibName9=opto
 LibName10=atmel
 LibName11=contrib
 LibName12=valves
-LibName13=/home/q-n/Kicad/nhantt/nhantt-kicad-lib/nhantt-kicad-lib
+LibName13=lib/ngly/ps_xl4017
 LibName14=nhantt-kicad-lib
